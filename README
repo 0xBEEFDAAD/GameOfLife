@@ -1,0 +1,6 @@
+# GameOfLife for python 3 - sample use:
+import game_of_life
+gol = game_of_life.GameOfLife()
+gol.create("Gosper Glider Gun")
+gol.pattern(10, 20, game_of_life.GOSPER_GLIDER_GUN)
+gol.play()
