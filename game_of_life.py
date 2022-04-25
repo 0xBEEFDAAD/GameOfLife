@@ -213,7 +213,7 @@ class GameOfLife():
                 break
             self.area = NEWGEN
             sleep(self.delay)
-        sleep(30*DELAY)
+        sleep(30*self.delay)
 
 ######## PATTERNS ############
 
